@@ -5,9 +5,10 @@
   <body>
       {% include header.html %}
       <section id="about">
-        <iframe src="/assets/joryan_cv.html"></iframe>
-          
-        
+        <frameset rows = "*">
+          <frame name = "main" src = "/assets/joryan_cv.html" />
+        </frameset
+        <iframe src=""></iframe>
       </section>
         {{ content }} 
       {% include footer.html %}
