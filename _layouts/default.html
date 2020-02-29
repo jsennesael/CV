@@ -5,7 +5,10 @@
   <body>
       {% include header.html %}
       <section id="about">
-        {% include joryan_cv.html %}
+        <frameset cols="90%,*,90%">
+          <frame src="joryan_cv.html">
+        </frameset>
+        
       </section>
         {{ content }} 
       {% include footer.html %}
