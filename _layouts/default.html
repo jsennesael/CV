@@ -3,21 +3,12 @@
 <html lang="en">
   {% include head.html %}
   <style>
-* {
-  box-sizing: border-box;
-}
 
-.column {
+
+.coly {
   float: left;
   width: 50%;
   padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 </style>
   <body>
@@ -32,10 +23,10 @@
         <h3>MSc. in Electronics and ICT Engineering Technology</h3>
         <p>This is actually still in progress. I will graduate by the end of this semester. I did already obtain the BSc. with with honors.</p>
         <div class="row">
-          <div class="column">
+          <div class="coly">
             <img src="/assets/d.jpg" alt="Class D" style="width:100%">
           </div>
-          <div class="column">
+          <div class="coly">
             <img src="/assets/boost.jpg" alt="Boost" style="width:100%">
           </div>
         </div>
@@ -44,13 +35,20 @@
         
         <h3>Major in Digital Image Processing</h3>
         <p>In a modern world with AI and self-driving cars, image processing becomes really important. I found these courses to be really intresting and a great addition to my programming skills.</p>
-        <p align="center"><img src="/assets/contour.PNG" alt="HTML5 Icon" width=70% class="center"></p> 
-        <div class="row">
-          <div class="column">
-            <img src="/assets/d.jpg" alt="mesh" style="width:100%">
+         <div class="row">
+          <div class="coly">
+            <img src="/assets/contour.PNG" alt="mesh" style="width:100%">
           </div>
-          <div class="column">
-            <img src="/assets/boost.jpg" alt="shade" style="width:100%">
+          <div class="coly">
+            <img src="/assets/puzzle.gif" alt="shade" style="width:100%">
+          </div>
+        </div>
+        <div class="row">
+          <div class="coly">
+            <img src="/assets/mesh1.gif" alt="mesh" style="width:100%">
+          </div>
+          <div class="coly">
+            <img src="/assets/mesh2.gif" alt="shade" style="width:100%">
           </div>
         </div>
 
@@ -59,10 +57,10 @@
           chosen for its high efficiency but the control of it is not obvious. The objective is to study the way to control the
           converter using the MSP430 microcontroller.</p>
          <div class="row">
-          <div class="column">
+          <div class="coly">
             <img src="/assets/d.jpg" alt="Class D" style="width:100%">
           </div>
-          <div class="column">
+          <div class="coly">
             <img src="/assets/boost.jpg" alt="Boost" style="width:100%">
           </div>
         </div>
