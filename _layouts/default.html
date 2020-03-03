@@ -10,6 +10,11 @@
   width: 50%;
   padding: 5px;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+    }
 </style>
   <body>
       {% include header.html %}
@@ -56,12 +61,13 @@
         <p>The LLC converter is a DC/DC topology widely used in the industry but not yet in space applications. The topology is usually 
           chosen for its high efficiency but the control of it is not obvious. The objective is to study the way to control the
           converter using the MSP430 microcontroller.</p>
+        <p align="center"><img src="/assets/llc.png" alt="HTML5 Icon" width=100% class="center"></p>
          <div class="row">
           <div class="coly">
-            <img src="/assets/d.jpg" alt="Class D" style="width:100%">
+            <img src="/assets/gain1.gif" alt="Class D" style="width:100%">
           </div>
           <div class="coly">
-            <img src="/assets/boost.jpg" alt="Boost" style="width:100%">
+            <img src="/assets/gain2.gif" alt="Boost" style="width:100%">
           </div>
         </div>
         <h1>Hobby's</h1>
